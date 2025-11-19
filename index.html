@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Printy | 3D Printing Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+  <div class="glow glow-3"></div>
+
+  <header class="topbar">
+    <div class="brand">Printy</div>
+    <nav class="nav">
+      <a href="#features">Features</a>
+      <a href="#projects">Projects</a>
+      <a href="#cta">Get Started</a>
+    </nav>
+    <button class="btn btn-outline" data-ripple>Contact</button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__badge">3D Printing Portfolio</div>
+      <h1>Printy brings your boldest ideas to life.</h1>
+      <p>
+        Showcase your 3D printing experiments, prototypes, and production-ready designs with a dark, future-forward landing page.
+      </p>
+      <div class="hero__actions">
+        <button class="btn btn-primary" data-ripple>Launch a Project</button>
+        <button class="btn btn-ghost" data-ripple>View Gallery</button>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__number">150+</span>
+          <span class="stat__label">Print Sessions</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number">40</span>
+          <span class="stat__label">Materials Tested</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number">18</span>
+          <span class="stat__label">Prototypes Shipped</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="features">
+      <div class="panel__header">
+        <h2>Why Printy?</h2>
+        <p>Everything you need to spotlight your 3D printing workflow in one sleek layout.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="card">
+          <div class="card__icon">🛰️</div>
+          <h3>Precision Ready</h3>
+          <p>Show tolerances, layer heights, and print speeds with clarity to impress collaborators.</p>
+          <button class="btn btn-inline" data-ripple>Showcase Settings</button>
+        </article>
+        <article class="card">
+          <div class="card__icon">🌌</div>
+          <h3>Material Stories</h3>
+          <p>Display PLA, PETG, resin, and exotic filament experiments with color-coded tags.</p>
+          <button class="btn btn-inline" data-ripple>View Materials</button>
+        </article>
+        <article class="card">
+          <div class="card__icon">🛠️</div>
+          <h3>Workshop Ready</h3>
+          <p>Highlight timelapses, toolpaths, and post-processing so visitors feel the craft.</p>
+          <button class="btn btn-inline" data-ripple>Tour the Lab</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="panel__header">
+        <h2>Featured Prints</h2>
+        <p>Interactive cards with subtle motion to keep visitors engaged.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="project-card" data-tilt>
+          <div class="project-card__tag">Resin</div>
+          <h3>Bio-Mechanical Figurine</h3>
+          <p>Ultra-fine detail capture with .02mm layers and translucent blue resin.</p>
+          <div class="project-card__meta">
+            <span>13h print</span>
+            <span>Elegoo Mars</span>
+          </div>
+        </article>
+        <article class="project-card" data-tilt>
+          <div class="project-card__tag">PLA</div>
+          <h3>Modular Organizer</h3>
+          <p>Stackable trays with snap-fit joints for storing nozzles, drivers, and bits.</p>
+          <div class="project-card__meta">
+            <span>7h print</span>
+            <span>Prusa i3 MK3S</span>
+          </div>
+        </article>
+        <article class="project-card" data-tilt>
+          <div class="project-card__tag">PETG</div>
+          <h3>Drone Frame</h3>
+          <p>Lightweight lattice frame tuned for vibration control and easy maintenance.</p>
+          <div class="project-card__meta">
+            <span>11h print</span>
+            <span>Bambu Lab X1</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel cta" id="cta">
+      <div class="cta__text">
+        <p class="cta__eyebrow">Ready to print?</p>
+        <h2>Spin up a new idea with Printy.</h2>
+        <p>Start a project board, document your slicer profiles, and publish results all from one place.</p>
+      </div>
+      <div class="cta__actions">
+        <button class="btn btn-primary" data-ripple>Start a Build</button>
+        <button class="btn btn-outline" data-ripple>Schedule a Demo</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="brand">Printy</div>
+    <p>Dark mode ready. Built for makers who live on the edge of what’s printable.</p>
+    <div class="footer__links">
+      <a href="#hero">Top</a>
+      <a href="#features">Features</a>
+      <a href="#projects">Projects</a>
+      <a href="#cta">Get Started</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
